@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <script>
+        // Constants for deductions
+const SSS_CONTRIBUTION = 500;
+const PHILHEALTH_CONTRIBUTION = 300;
+const PAG_IBIG_CONTRIBUTION = 200;
+
+// Prompt the user for input
+let dailyRate = parseFloat("500");
+let daysWorked = parseInt("20");
+let overtimeHours = parseFloat("10 hrs");
+
+// Calculate overtime pay
+let overtimePay = 10 * (500 / 8) * 1.5;
+
+// Calculate total deductions
+let totalDeductions = 500 + 300 + 200;
+
+// Calculate total payroll
+let totalPayroll = (20 * 500) + 937.5 - 1;
+
+// Display the computed payroll amount using an alert
+alert("Your total payroll for the month is: PHP " + totalPayroll.toFixed(2));
+    </script>
+</body>
+</html>
